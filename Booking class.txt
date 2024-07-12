@@ -1,0 +1,15 @@
+public class Booking {
+    private int id;
+    private String username;
+    private int flightId;
+    private int seatNumber;
+
+    public Booking(int id, String username, int flightId, int seatNumber) {
+        this.id = id;
+        this.username = username;
+        this.flightId = flightId;
+        this.seatNumber = seatNumber;
+    }
+
+    // Getters and setters
+}
